@@ -20,6 +20,7 @@ class ViewController: UIViewController {
         if let text = self.messageField.text, text != "" {
             request?.query = text
         } else {
+            print("hi")
             return
         }
         
